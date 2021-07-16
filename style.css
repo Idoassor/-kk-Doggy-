@@ -1,0 +1,86 @@
+h1{
+    color; color: blueviolet;
+    font-weight: bold;
+    text-align: right;
+    transform: translate(40%,400%);
+}
+
+#banner{
+	width: 100%;
+	position: relative;
+}
+
+.classic{
+	width:  400px;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+#logo{
+	width: 30%;
+}
+
+body {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	background: skyblue;
+}
+
+p{
+	font-size: 150%;
+	color; blue;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style-type: none;
+	line-height: 50px;
+}
+
+*{
+	margin:  0;
+	padding 0;
+} 
+
+#topbanner {
+	display:  flex;
+}
+
+#logo,h1,#topbanner>h2,#login{
+	position: absolute;
+}
+
+#topbanner>h2{
+	font-size: 200%;
+	transform: translate(50%,100%);
+	background-color: White;
+	padding:  10px;
+	border-radius: 20px;
+}
+
+h2{
+	padding: 20px;
+}
+.cards{
+	display: flex;
+	justify-content: space-around;
+}
+ol,ul{
+	padding-bottom:  10px;
+}
+.icon{
+	width: 30px;
+}
+
+#login{
+	background-color: white;
+	padding: 10px;
+	border-radius: 20px;
+	transform: translate(1500%,20%);
+
+}
